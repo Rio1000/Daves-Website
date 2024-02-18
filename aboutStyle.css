@@ -1,0 +1,173 @@
+
+html{
+    scroll-behavior: smooth;
+  
+  }
+  
+  body {
+      scroll-behavior: smooth;
+      background-image: url('siora-photography-B1Sn_ADEohs-unsplash.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      overflow-x: hidden;
+      overflow: hidden;
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+  }
+  .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      right: 0;
+      background-color: #111111d2;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+  }
+  .sidenav a {
+      padding: 40px 8px 8px 40px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #c7c7c7;
+      display: block;
+      transition: 0.3s;
+
+  }
+  .sidenav p {
+    position: absolute;
+    z-index: 1;
+    bottom: 10%;
+    left: 16px;  
+    transition: 0.5s;
+    padding-top: 60px;
+    color: #ececec;
+  }
+  #text{
+      width: auto;
+      margin-right: 0%;
+      transition: 0.5s;
+  
+  }
+  #closeButton{
+      position: absolute;
+      color: #ececec;
+      text-decoration: none;
+      border-style: hidden;
+      padding: 10px;
+      top: 10px;
+      right: 20px;
+      font-size: 30px;
+      cursor: pointer;
+      transition: 0.3s;
+      z-index: 2;
+      display: none;
+      font-size: 60px;
+  
+  }
+  #closeButton:hover {
+      color: rgb(197, 49, 49);
+      transition: 0.3s;
+  
+  }
+  
+  
+  .sidenav a:hover {
+      color: #ffffff;
+      text-decoration: underline;
+  }
+  
+  .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 70px;
+      font-size: 56px;
+      margin-right: 50px;
+      margin: auto;
+      transition: 0.3s;
+  
+  }
+  
+  .open-btn {
+      color: #ececec;
+      border-style: hidden;
+      border-radius: 18px;
+      opacity: 0.8;
+      padding: 20px;
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      font-size: 30px;
+      cursor: pointer;
+      transition: 0.3s;
+      z-index: 1;
+  }
+  #upArrow{
+    color: #ececec;
+  
+    z-index: 1;
+  }
+  .text {
+    margin: auto;
+    position: absolute;
+    top: 35%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    
+  }
+  .arrow-button {
+      color: #ececec;
+      border-style: hidden;
+      border-radius: 18px;
+      opacity: 0.8;
+      padding: 10px;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      font-size: 30px;
+      cursor: pointer;
+      transition: 0.5s;
+      text-decoration: none;
+      z-index: 3;
+    }
+    .arrow-button:hover {
+      background-color: #3a3a3aac;
+      text-decoration: none;
+    }
+    .clearfix:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  @media screen and (max-height: 450px) {
+      .sidenav {
+          padding-top: 15px;
+      }
+  
+      .sidenav a {
+          font-size: 18px;
+      }
+  }
+  @media only screen and (max-width: 700px) {
+      .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+      }
+    }
+    @media only screen and (max-width: 900px) {
+      #title{
+        font-size: 300%;
+      }
+    }
+  
+    @media only screen and (max-width: 500px) {
+      .responsive {
+        width: 100%;
+      }
+    }
