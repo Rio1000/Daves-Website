@@ -82,7 +82,6 @@ body {
 
 }
 
-
 .sidenav a:hover {
   color: #ffffff;
   text-decoration: underline;
@@ -101,7 +100,11 @@ body {
 }
 
 .open-btn {
-  color: #ececec;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #c7c7c7;
   border-style: hidden;
   border-radius: 18px;
   opacity: 0.8;
@@ -113,6 +116,9 @@ body {
   cursor: pointer;
   transition: 0.3s;
   z-index: 1;
+  width: auto;
+  height: auto;
+  background-color: #111111d2;
 }
 
 #upArrow {
@@ -130,7 +136,19 @@ body {
   text-align: center;
 
 }
-
+.discription{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #bdbdbd;
+  text-transform: uppercase;
+  font-size: 300%;
+  text-decoration: none;
+  object-fit: cover;
+}
 .title {
   padding: 50px;
   display: flex;
@@ -306,16 +324,42 @@ body {
 }
 
 
+div.scroll-container {
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+}
+
+div.scroll-container img {
+  padding: 10px;
+  border-radius: 20px;
+}
 
 
+.content{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 10px;
+  background-color: #111111d2;
+  width: 75%;
+}
 
-
-
-
+.testimonialText{
+  transition: 0.3s;
+}
 
 
 
 .navImage {
+  width: 600px;
   transition: 0.3s;
 }
 
@@ -355,7 +399,7 @@ body {
 
     @media screen and (max-width: 2000px) {
       .navImage{
-        width: 10px;
+        width: 300px;
       }
       .responsive {
         flex: 1 0 48%;
@@ -414,6 +458,13 @@ padding-left: 0px;  }
 
 @media only screen and (max-width: 900px) {
   .title {
+    font-size: 100%;
+  }
+  .div.scroll-container img {
+    padding: 10px;
+    width: 100px;
+  }
+  .discription{
     font-size: 100%;
   }
 }

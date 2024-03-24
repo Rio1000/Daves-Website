@@ -37,7 +37,7 @@ body {
 .sidenav a {
   padding: 40px 8px 8px 40px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 100%;
   color: #c7c7c7;
   display: block;
   transition: 0.3s;
@@ -90,7 +90,11 @@ body {
 }
 
 .open-btn {
-  color: #ececec;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #c7c7c7;
   border-style: hidden;
   border-radius: 18px;
   opacity: 0.8;
@@ -102,6 +106,9 @@ body {
   cursor: pointer;
   transition: 0.3s;
   z-index: 1;
+  width: auto;
+  height: auto;
+  background-color: #111111d2;
 }
 
 #upArrow {
@@ -220,22 +227,18 @@ body {
   color: #ececec;
 }
 
-.applyNow {
+.navButton {
   cursor: pointer;
   border-style: solid;
   border-radius: 5px;
   font-size: 24px;
-  width: 50%;
-  height: 25%;
-  margin-top: 100px;
-  margin-bottom: 200px;
   padding: 10px;
   transition: 0.2s;
   color: #ececec;
   text-decoration: none;
 }
 
-.applyNow:hover {
+.navButton:hover {
   background-color: rgb(39, 94, 39);
 }
 
@@ -252,7 +255,7 @@ body {
 }
 
 .discription {
-  padding-bottom: 40px;
+  padding-bottom: 30px;
   padding-left: 20px;
   color: #c7c7c7;
   text-wrap: pretty;

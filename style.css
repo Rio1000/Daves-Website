@@ -59,9 +59,10 @@ body {
   margin-right: 0%;
   transition: 0.5s;
   background-color: #111111d2;
-
 }
-
+#nothing{
+  opacity: 0;
+}
 #closeButton {
   position: absolute;
   color: #ececec;
@@ -101,7 +102,10 @@ body {
   transition: 0.3s;
 
 }
+#moreArrow{
+  transition: 0.3s;
 
+}
 .open-btn {
   align-items: center;
   display: flex;
@@ -215,19 +219,50 @@ body {
   width: 100%;
 }
 
-#title {
+#nav {
   align-items: center;
+  display: flex;
   justify-content: center;
   text-align: center;
-  color: #bdbdbd;
-  border-radius: 15%;
-  background-color: #111111d2;
-  text-transform: uppercase;
-  font-size: 700%;
-  text-decoration: none;
-  height: auto;
+  color: #c7c7c7;
+  border-style: hidden;
+  border-radius: 18px;
+  opacity: 0.8;
+  padding: 18.5px;
+  position: fixed;
+  top: 1px;
+  right: 20px;
+  font-size: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+  z-index: 1;
   width: auto;
-}
+  height: auto;
+  background-color: #111111d2;
+  margin-top: 120px;
+  }
+  #navMail {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #c7c7c7;
+    border-style: hidden;
+    border-radius: 18px;
+    opacity: 0.8;
+    padding: 18.5px;
+    position: fixed;
+    top: 1px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+    z-index: 1;
+    width: auto;
+    height: auto;
+    background-color: #111111d2;
+    margin-top: 210px;
+    }
 
 
 .arrow-button {
@@ -267,21 +302,18 @@ body {
 }
 
 .image-container {
-  margin: 40px;
   position: relative;
   width: 100%;
   margin-bottom: 25%;
-  /* Set a fixed aspect ratio (e.g., square) */
   margin-top: 25%;
-  padding: 10px;
 }
 
 
 .image-container img {
   width: 100%;
   height: 100%;
-  /* Allow the height to adjust proportionally */
   display: block;
+  margin-right: 100px;
   border-radius: 18px;
 }
 
@@ -423,15 +455,14 @@ body {
     height: auto;
   }
 
-  #title {
-    font-size: 60px;
-  }
+
 
   .image-container img {
-    width: 85%;
-    justify-content: center;
+    width: 95%;
+    justify-content: left;
     align-items: center;
-    text-align: center;
+    text-align: left;
+    margin-left: -37px;
   }
 
   .overlay {
@@ -442,7 +473,6 @@ body {
   }
   .overlay{
     width: 100%;
-    margin-left:-6.2%;
   }
 }
 
@@ -459,16 +489,11 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 100%;
-    width: 60%;
+    width: 80%;
     height: auto;
   }
-
-  img {
-    width: 250px;
-    height: 150px;
-    margin-top: -10px;
-    margin-bottom: -10px;
-
+  #title{
+    margin-top: 100px;
   }
 }
 

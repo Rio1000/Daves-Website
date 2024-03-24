@@ -1,3 +1,6 @@
+const arrow = document.getElementById("title");
+
+
 function openNav() {
 
     document.getElementById("mySidenav").style.width = "250px";
@@ -7,9 +10,8 @@ function openNav() {
     document.getElementById("discription2").style.borderBottomRightRadius = "18px";
     document.getElementById("text").style.marginRight = "10%";
     document.getElementById("openButton").style.display = "none";
+    document.getElementById("title").style.opacity = "0";
     document.getElementById("closeButton").style.display = "flex";
-    document.getElementById("upArrow").style.opacity = "0";
-
 
 
 
@@ -24,7 +26,7 @@ function closeNav() {
     document.getElementById("openButton").style.display = "flex";
     document.getElementById("text").style.marginRight = "0%";
     document.getElementById("closeButton").style.display = "none";
-    document.getElementById("upArrow").style.opacity = "0.8";
+    document.getElementById("title").style.opacity = "0.8";
 
 
 
