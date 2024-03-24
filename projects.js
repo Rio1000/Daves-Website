@@ -18,7 +18,8 @@ function openNav() {
     document.getElementById("moreArrow").style.zIndex = "0";
     document.getElementById("navMail").style.opacity = "0";
     document.getElementById("navMail").style.zIndex = "0";
-    
+    document.getElementById("call").style.opacity = "0";
+    document.getElementById("call").style.zIndex = "0";
 
 }
     
@@ -42,5 +43,6 @@ function closeNav() {
     document.getElementById("moreArrow").style.zIndex = "2";
     document.getElementById("navMail").style.opacity = "0.8";
     document.getElementById("navMail").style.zIndex = "2";
-
+    document.getElementById("call").style.opacity = "0.8";
+    document.getElementById("call").style.zIndex = "2";
 }
