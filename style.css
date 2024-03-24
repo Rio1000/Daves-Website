@@ -60,9 +60,11 @@ body {
   transition: 0.5s;
   background-color: #111111d2;
 }
-#nothing{
+
+#nothing {
   opacity: 0;
 }
+
 #closeButton {
   position: absolute;
   color: #ececec;
@@ -102,10 +104,12 @@ body {
   transition: 0.3s;
 
 }
-#moreArrow{
+
+#moreArrow {
   transition: 0.3s;
 
 }
+
 .open-btn {
   align-items: center;
   display: flex;
@@ -203,14 +207,16 @@ body {
   width: 50%;
   object-fit: cover;
 }
+
 #title2 {
   align-items: center;
   justify-content: center;
   text-align: center;
   color: #bdbdbd;
   text-transform: uppercase;
-    text-decoration: none;
+  text-decoration: none;
 }
+
 #titleContainer {
   text-align: center;
   display: flex;
@@ -240,30 +246,52 @@ body {
   height: auto;
   background-color: #111111d2;
   margin-top: 120px;
-  }
-  #navMail {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    color: #c7c7c7;
-    border-style: hidden;
-    border-radius: 18px;
-    opacity: 0.8;
-    padding: 18.5px;
-    position: fixed;
-    top: 1px;
-    right: 20px;
-    font-size: 30px;
-    cursor: pointer;
-    transition: 0.3s;
-    z-index: 1;
-    width: auto;
-    height: auto;
-    background-color: #111111d2;
-    margin-top: 210px;
-    }
+}
 
+#navMail {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #c7c7c7;
+  border-style: hidden;
+  border-radius: 18px;
+  opacity: 0.8;
+  padding: 18.5px;
+  position: fixed;
+  top: 1px;
+  right: 20px;
+  font-size: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+  z-index: 1;
+  width: auto;
+  height: auto;
+  background-color: #111111d2;
+  margin-top: 210px;
+}
+#call {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #c7c7c7;
+  border-style: hidden;
+  border-radius: 18px;
+  opacity: 0.8;
+  padding: 18.5px;
+  position: fixed;
+  top: 1px;
+  right: 20px;
+  font-size: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+  z-index: 1;
+  width: auto;
+  height: auto;
+  background-color: #111111d2;
+  margin-top: 300px;
+}
 
 .arrow-button {
   color: #ececec;
@@ -390,7 +418,8 @@ body {
   .overlay {
     font-size: 15px;
   }
-  .text{
+
+  .text {
     top: 0%;
   }
 }
@@ -420,6 +449,77 @@ body {
 @media only screen and (max-width: 900px) {
   .title {
     font-size: 100%;
+  }
+
+  #navMail {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #c7c7c7;
+    border-style: hidden;
+    border-radius: 18px;
+    opacity: 0.8;
+    padding: 18.5px;
+    position: fixed;
+    top: 1px;
+    left: 100px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+    z-index: 1;
+    width: 30px;
+    height: auto;
+    background-color: #111111d2;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+
+  #nav {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #c7c7c7;
+    border-style: hidden;
+    border-radius: 18px;
+    opacity: 0.8;
+    padding: 18.5px;
+    position: fixed; 
+    top: 1px;
+    left: 200px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+    z-index: 1;
+    width: 30px;
+    height: auto;
+    background-color: #111111d2;
+    margin-top: 20px;
+
+  }
+  #call {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #c7c7c7;
+    border-style: hidden;
+    border-radius: 18px;
+    opacity: 0.8;
+    padding: 18.5px;
+    position: fixed; 
+    top: 1px;
+    left: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+    z-index: 1;
+    width: 30px;
+    height: auto;
+    background-color: #111111d2;
+    margin-top: 20px;
+
   }
 }
 
@@ -468,10 +568,12 @@ body {
   .overlay {
     width: 10px;
   }
-  .text{
+
+  .text {
     top: 30%;
   }
-  .overlay{
+
+  .overlay {
     width: 100%;
   }
 }
@@ -492,7 +594,8 @@ body {
     width: 80%;
     height: auto;
   }
-  #title{
+
+  #title {
     margin-top: 100px;
   }
 }
